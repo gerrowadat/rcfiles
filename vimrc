@@ -98,3 +98,18 @@ function! SetArrowKeysAsTextShifters()
 endfunction
  
 call SetArrowKeysAsTextShifters()
+
+" bundle stuff
+set nocompatible               " be iMproved
+filetype off 
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+filetype plugin indent on 
+
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'tpope/vim-fugitive'
