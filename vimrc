@@ -1,7 +1,20 @@
-set tabstop=2
-set expandtab
-syntax on
+set tabstop=2 " Nice and concise for python.
+set expandtab " Boooo tabs.
+syntax on     " Syntax on
+set ai        " always set autoindenting on
 
+" backup options
+set backup
+set backupdir=~/.backup
+
+
+set ls=2    " Keep status bar
+set ruler   " co-ords. on status bar
+
+set shiftwidth=4 " fix up autoindents
+
+
+" the below nicked from somewhere. Remaps arrow keys to indent/unindent and add/remove blank lines.
 function! DelEmptyLineAbove()
     if line(".") == 1
         return
