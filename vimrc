@@ -103,13 +103,13 @@ call SetArrowKeysAsTextShifters()
 set nocompatible               " be iMproved
 filetype off 
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'tpope/vim-fugitive'
 
+call vundle#end()
 filetype plugin indent on 
-
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'tpope/vim-fugitive'
