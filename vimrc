@@ -110,6 +110,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'sheerun/vim-polyglot'
 
 call vundle#end()
 filetype plugin indent on 
