@@ -50,3 +50,5 @@ fi
 if [ -f ~/.bashrc.local ]; then
     . ~/.bashrc.local
 fi
+
+export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
