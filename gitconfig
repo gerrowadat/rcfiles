@@ -1,3 +1,5 @@
 [user]
-	email = git@mail.andvari.net
+	email = doc+git@gerrup.eu
 	name = Dave O'Connor
+[init]
+	defaultBranch = main
